@@ -1,0 +1,34 @@
+public class Person {
+    String name;
+    int age;
+
+    // Constructor
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+}
+public class Employee extends Person {
+    int employeeID;
+    double salary;
+
+    // Constructor using super to initialize Person attributes
+    public Employee(String name, int age, int employeeID, double salary) {
+        super(name, age); // Calls constructor of Person
+        this.employeeID = employeeID;
+        this.salary = salary;
+    }
+
+    public void displayEmployeeDetails() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Employee ID: " + employeeID);
+        System.out.println("Salary: ₹" + salary);
+    }
+}
+public class EmployeeMain {
+    public static void main(String[] args) {
+        Employee emp = new Employee("Amit", 30, 101, 50000);
+        emp.displayEmployeeDetails();
+    }
+}
