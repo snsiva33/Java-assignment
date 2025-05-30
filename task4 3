@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class WeekdayFinder {
+    public static void main(String[] args) {
+        // Array of weekdays starting with Sunday at index 0
+        String[] days = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter day index (0-6): ");
+        
+        try {
+            int index = sc.nextInt();
+            System.out.println("Day is: " + days[index]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Error: Invalid day index. Please enter a value between 0 and 6.");
+        } catch (Exception e) {
+            System.out.println("Error: Invalid input. Please enter an integer.");
+        } finally {
+            sc.close();
+        }
+    }
+}
