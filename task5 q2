@@ -1,0 +1,13 @@
+import java.util.Arrays;
+import java.util.List;
+
+public class Main {
+    public static void main(String[] args) {
+        List<String> strings = Arrays.asList("abc", "", "bc", "efg", "abcd", "", "jkl");
+
+        // Filter out non-empty strings and print them
+        strings.stream()
+               .filter(s -> !s.isEmpty())
+               .forEach(System.out::println);
+    }
+}
