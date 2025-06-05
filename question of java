@@ -1,0 +1,61 @@
+Latest java version
+Latest java LTS 
+differece between JVM, JRE, JDK
+Premitive & NonPromitive
+List down some of NonPromitive or Premitive
+default value of an variable for all data type 
+typeof operator
+tell about some of keyword ? 
+what is the differece between thow & thows, final & finally
+types of conditional statement & loop
+what is the purpose of break & continue
+what is the pupose of forEachLoop
+Difference between while and Do while
+How you will create dynamic array; (Collection)
+what is string pool?,  "asdf" == new String("asdf") ?
+tell about some of String methods ?
+StringBuffer vs String Builder
+what is prototype or class ? 
+type of variable or methods or constructor?
+what is the defference between public, private, protected?
+what is the pupose of this or super
+Types of Inheritance
+what is Polymorphism or Encapsulation
+what is overloading
+what is overloading
+what is the pupose of inteface or abstract class
+what is the purpose of marker interface or functional interface or normal face
+why (default or static) method in inteface
+how one interface can Inherit another inteface ?  by using extend keyword
+how one class can inherite another inteface ? by using implements keyword
+how one class can inherite another class ? by using extend keyword
+what is check exception or unchecked exception?
+what is try & cache block 
+what is Collection framework
+what is the differece between List & Set or List & Map, or Map  & Set
+what is the differece between ArrayList & LinkedList, Vector & Stack
+what is the differece between Map & HasMap, HasSet Vs HasMap
+what is stream
+tell about some of stream method
+what is collectors in stream?
+what is the differece between filter & map method of stream
+async vs sync
+why thread is needed?
+how you will create a thread 
+what is the differece between runnable & callable
+tell about some of methods in thread class
+features of java 8 or 17 or 21
+what is maven or what is the differece between maven & gradle
+what is lamda expression
+what is method reference
+Callable vs Future Interfaces
+Completable Future vs Completion Stage
+pupose of Optional Class, or some of method in Optional class
+why text block needed?
+purpose of var keyword
+what is the purpose of switch expression
+what is the pupose yeild keyword
+why Records is used or purpose of record 
+Collectors API method and  Immutable Collections methods
+what is annotation ? @Ovveride 
+any one of data stucture
